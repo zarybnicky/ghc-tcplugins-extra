@@ -34,7 +34,7 @@ library
   exposed-modules:     GHC.TcPluginM.Extra
   build-depends:       base >=4.8  && <5
   if impl(ghcjs)
-    build-depends:     ghc-api-ghcjs  >=7.10 && <8.12
+    build-depends:     ghc-api-ghcjs
   else
     build-depends:     ghc  >=7.10 && <8.12
   hs-source-dirs:      src
